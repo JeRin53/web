@@ -1,0 +1,31 @@
+.create-task-container{
+    width: 1500px;
+    margin: 60px;
+    padding: 80px,70px;
+    text-align: center;
+    padding-bottom: 25px;
+    .title{
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+    }
+    .form-group{
+        .custom-width{
+            width: 100%;
+        }
+    }
+    .button{
+        padding: 16px;
+        justify-content: center;
+        margin: auto;
+        width: 30%;
+        color: rgb(100, 48, 151);
+        font-weight: bold;
+        background-image: none;
+        border: 1px solid rgb(252, 252, 252);
+        border-radius: 60px;
+        cursor: pointer;
+        &:hover{
+            background: rgb(39, 117, 141);
+        }
+    }
+}
